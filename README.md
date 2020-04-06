@@ -4,7 +4,5 @@
 
 ```shell
 cd /var/www/html
-mkdir speedtest
-cd speedtest
-curl -L https://github.com/DavBfr/html5_speedtest/archive/master.tar.gz | tar -zx --strip-components=1
+curl https://raw.githubusercontent.com/DavBfr/html5_speedtest/master/install.sh | sh
 ```
